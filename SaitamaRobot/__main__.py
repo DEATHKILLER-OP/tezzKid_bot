@@ -52,13 +52,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {} How are you ?..., my name is {}!
-I am an ⚡ Anime ⚡ themed safe and fast group management bot.
-Build by ⚡ SUM ⚡, I specialize in managing anime and similar themed groups 💢.
+I am an 𓆩‎ᗪℯ𝓿ꪱ͛l𓆪  i maanege ur group 😎.
+Build by @X_OP_ROHAN_X , I specialize in managing anime and similar themed groups 💢.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! ⚡My name is *{}*.
+Hey there! 👾 My name is *{}*.
 I'm Dr Stone & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -200,26 +200,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🛡️ADD ME🏓",
+                            text="👾ADD ME👾",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔮 Updates ",
-                             url="https://t.me/Luminous_Logs")
+                             text=" 👾 Updates ",
+                             url="https://t.me/ALONE_FIGHTER_OP")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" 🔎Help ",
+                            text=" 👾Help👾 ",
                             url="https://t.me/JerryPro_Bot?start=help"),
                          InlineKeyboardButton(
-                            text=" 👀Made by 🌹 ",
-                             url="https://t.me/LEAVEIY")        
+                            text=" 👾 MY MASTER 👾 ",
+                             url="https://t.me/X_OP_ROHAN_X")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" 🗡️ Source Code ",
-                             url="https://github.com/sum897/tezzKid_bot")
+                             text=" 👾 Source Code 👾 ",
+                             url="https://t.me/ALONE_FIGHTER_OP")
                     
                     ]]))
     else:
